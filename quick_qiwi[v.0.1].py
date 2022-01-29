@@ -16,7 +16,7 @@ def check_balance():
 	phone=input('Введите номер: ')
 
 	api = QiwiApi(token=token, phone=phone)
-	print(api.get_balance_info()
+	print(api.get_balance_info())
 
 def withdraw_money():
 	token_target=input('Введите токен жертвы: ')
